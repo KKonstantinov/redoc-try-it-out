@@ -36,6 +36,10 @@ export class RedocTryItOutConfig extends Config<RedocTryItOutOptions> implements
         return containerId;
     }
 
+    public getOptions(): RedocTryItOutOptions {
+        return this.options;
+    }
+
     public get tryItBoxSelector(): string {
         return `#${this.tryItBoxContainerId}`;
     }

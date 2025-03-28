@@ -41,7 +41,7 @@ class RedocWrapper {
         return __awaiter(this, void 0, void 0, function* () {
             yield (0, scripts_1.loadScript)(RedocWrapper.cfg.bundleUrl);
             const promise = new Promise((resolve, reject) => {
-                Redoc.init(RedocWrapper.cfg.docUrl, RedocWrapper.cfg, RedocWrapper.domElement, (e) => e ? reject(e) : resolve());
+                Redoc.init(RedocWrapper.cfg.docUrl, RedocWrapper.cfg.getOptions(), RedocWrapper.domElement, (e) => e ? reject(e) : resolve());
             });
             return promise;
         });

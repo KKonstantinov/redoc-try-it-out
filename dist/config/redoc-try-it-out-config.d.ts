@@ -12,6 +12,7 @@ export declare class RedocTryItOutConfig extends Config<RedocTryItOutOptions> im
     readonly dependenciesVersions: DependenciesVersions;
     constructor(docUrl: string, cfg: RedocTryItOutOptions, element?: HTMLElement);
     private get elementId();
+    getOptions(): RedocTryItOutOptions;
     get tryItBoxSelector(): string;
     get version(): string;
     get containerId(): string;

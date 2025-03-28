@@ -23,6 +23,9 @@ class RedocTryItOutConfig extends config_1.Config {
         }
         return containerId;
     }
+    getOptions() {
+        return this.options;
+    }
     get tryItBoxSelector() {
         return `#${this.tryItBoxContainerId}`;
     }
