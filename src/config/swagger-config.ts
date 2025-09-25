@@ -28,8 +28,9 @@ export class SwaggerConfig extends Config<SwaggerOptions> implements SwaggerOpti
     public readonly showClass: string = 'show';
     public readonly selectedOperationContainerClass: string = 'opened-shadow';
 
-    public readonly version: string = '3.48.0';
-
+    //public readonly version: string = '3.48.0';
+    public readonly version: string = '5.29.0';
+    
     constructor(options: SwaggerOptions, url: string, tryItOutEnabled: boolean) {
         super(options);
         this.url = url;
