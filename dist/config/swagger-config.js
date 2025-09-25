@@ -21,7 +21,7 @@ class SwaggerConfig extends config_1.Config {
         this.hideClass = 'hide';
         this.showClass = 'show';
         this.selectedOperationContainerClass = 'opened-shadow';
-        this.version = '3.48.0';
+        this.version = '5.29.0';
         this.onComplete = () => {
             this._onComplete();
             this._resolve();
