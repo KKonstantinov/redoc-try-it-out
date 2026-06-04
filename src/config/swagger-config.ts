@@ -99,7 +99,7 @@ export class SwaggerConfig extends Config<SwaggerOptions> implements SwaggerOpti
     }
 
     public get bundleUrl(): string {
-        return `${this.cdnUrl}/swagger-ui-dist@${this.version}/swagger-ui-bundle.js`;
+        return `${this.cdnUrl}swagger-ui-dist@${this.version}/swagger-ui-bundle.js`;
     }
 
     public get cssUrl(): string {

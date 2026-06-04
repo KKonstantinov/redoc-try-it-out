@@ -76,7 +76,7 @@ class SwaggerConfig extends config_1.Config {
         return `${this.boxSelector}.${this.authModalClass}`;
     }
     get bundleUrl() {
-        return `${this.cdnUrl}/swagger-ui-dist@${this.version}/swagger-ui-bundle.js`;
+        return `${this.cdnUrl}swagger-ui-dist@${this.version}/swagger-ui-bundle.js`;
     }
     get cssUrl() {
         return `${this.cdnUrl}swagger-ui-dist@${this.version}/swagger-ui.css`;

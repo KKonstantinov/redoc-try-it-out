@@ -42,12 +42,12 @@ class RedocTryItOutConfig extends config_1.Config {
         return `${this.containerSelector} ${this._operationBoxSelector}`;
     }
     get bundleUrl() {
-        return `${this.cdnUrl}/redoc@${this.version}/bundles/redoc.standalone.min.js`;
+        return `${this.cdnUrl}redoc@${this.version}/bundles/redoc.standalone.min.js`;
     }
     get tryItDependencies() {
         return {
-            jqueryUrl: `${this.cdnUrl}/jquery@${this.dependenciesVersions.jquery}/dist/jquery.min.js`,
-            jqueryScrollToUrl: `${this.cdnUrl}/jquery.scrollto@${this.dependenciesVersions.jqueryScrollTo}/jquery.scrollTo.min.js`
+            jqueryUrl: `${this.cdnUrl}jquery@${this.dependenciesVersions.jquery}/dist/jquery.min.js`,
+            jqueryScrollToUrl: `${this.cdnUrl}jquery.scrollto@${this.dependenciesVersions.jqueryScrollTo}/jquery.scrollTo.min.js`
         };
     }
 }
